@@ -4,7 +4,7 @@
 //////////////////Step 1////////////////////
 // Create a new array called 'faveColors' and set it your three favorite colors as strings.
 
-let faveColors = ["Orange", "Purple", "White"]
+let faveColors = ["orange", "purple", "white"]
 
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, profileImage. 
@@ -47,7 +47,7 @@ let homeTown = me.homeTown
 // Next, create a for loop to loop over the array. If any of the colors you chose is 'blue', change it's value to '#4D4DFF' which is just a more appealing color of blue. Outside of the for loop but still inside of setColor, invoke the function called background which will take in three arguments. These arguments should be each item of your array. This is a function we created for you to set the background colors.
 
 function setColor(arr){
-    arr.splice(0, 3)
+    arr.splice(3)
     for (let i = 0; i < arr.length; i++){
         if (arr[i] === "blue"){
             arr[i] = "#4D4DFF"
