@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+.body-wrapper {
+    width: 100vw;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.header-wrapper{
+    width: 100vw;
+    height: 90px;
+    background: gray;
+    color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.header{
+    width: 95vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 3rem;
+    margin-left: 40px;
+}
+.nav-links {
+    font-size: 1.5rem;
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    align-items: center;
+}
+.hero-section {
+    height: 505px;
+    width: 100vw;
+    background: black;
+    display: flex;
+    color: #E8DE74;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.shapes-section {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-square1 {
+    background: #BAFCDA;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.green-square2 {
+    background: #BAFCDA;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.green-square3 {
+    background: #BAFCDA;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.section2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange-box1 {
+    background: #F6C47A;
+    width: 40vw;
+    height: 350px;
+}
+
+.orange-box2 {
+    background: #F6C47A;
+    width: 40vw;
+    height: 350px;
+}
+
+.info-section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 50%;
+    padding: 0 60px;
+}
+.photo-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    background-image: url(./elephant.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+}
+
+.footer {
+    background: #393B54;
+    width: 100vw;
+    height: 200px;
+}
